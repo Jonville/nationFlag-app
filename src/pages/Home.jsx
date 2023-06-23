@@ -51,7 +51,7 @@ function Home(props) {
                 <div key={i}className='items'>
                   <Link
                     className='picture'
-                    to={`detail/${data.indexOf(items)}`}>
+                    to={`/detail/${data.indexOf(items)}`}>
                       <img src={items.flags.png} />
                   </Link>
                   <h3>{items.name.common} {items.translations.kor.common}</h3>
